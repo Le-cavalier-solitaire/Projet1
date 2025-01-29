@@ -1,6 +1,6 @@
 
 
-export const UserCard =({UserId})=>{
+export const NewOne =()=>{
     
     return <div>
         Identification_User

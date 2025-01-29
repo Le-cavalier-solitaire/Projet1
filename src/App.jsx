@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { UserCard } from './components/UserCard' 
+import { NewOne } from './components/NewOne'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,9 +30,11 @@ const user3 = {
   actif : false
 
 }
+
   return (
     <>
-      <UserCard UserData={user1} />  <UserCard UserData={user2}/>  <UserCard UserData={user3}/>
+      <UserCard UserData={user1} />  <UserCard UserData={user2}/>  <UserCard UserData={user3}/> 
+      <NewOne/>
     </>
   )
 }
