@@ -5,7 +5,8 @@ export const NewOne =()=>{
     return <div>
         Identification_User
         <table border={1}>
-            <th>new_one update</th>
+            <tr><th>new_one update</th>
+            <th>exemple</th></tr>
         </table>
 
 
